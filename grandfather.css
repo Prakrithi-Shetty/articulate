@@ -1,0 +1,27 @@
+.grand{
+    width:600px;
+    height: 600px;
+    background: red;
+    position: relative;
+}
+.parent{
+    width: 400px;
+    height: 400px;
+    background: green;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
